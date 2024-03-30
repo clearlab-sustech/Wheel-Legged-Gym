@@ -298,7 +298,7 @@ class LeggedRobotCfgPPO(BaseConfig):
         )
         algorithm_class_name = "PPO"
         num_steps_per_env = 48  # per iteration
-        max_iterations = 7500  # number of policy updates
+        max_iterations = 5000  # number of policy updates
 
         # logging
         save_interval = 100  # check for potential saves every this many iterations
