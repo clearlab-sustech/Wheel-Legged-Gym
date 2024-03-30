@@ -12,7 +12,10 @@ setup(
     install_requires=[
         "isaacgym",
         "matplotlib",
+        "tensorboard",
+        "setuptools==59.5.0",
         "numpy>=1.16.4",
+        "numpy<1.20.0",
         "GitPython",
         "onnx",
     ],
