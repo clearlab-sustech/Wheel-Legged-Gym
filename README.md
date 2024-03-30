@@ -31,7 +31,7 @@ Related Links:
 
 ### Usage ###
 1. Train:  
-    ```python legged_gym/scripts/train.py --task=wheel_legged_flat```
+    ```python wheel_legged_gym/scripts/train.py --task=wheel_legged_vmc_flat```
     -  To run on CPU add following arguments: `--sim_device=cpu`, `--rl_device=cpu` (sim on CPU and rl on GPU is possible).
     -  To run headless (no rendering) add `--headless`.
     - **Important**: To improve performance, once the training starts press `v` to stop the rendering. You can then enable it later to check the progress.
